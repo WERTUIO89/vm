@@ -46,7 +46,7 @@ resource "azurerm_virtual_machine" "example" {
     caching           = "ReadWrite"
     create_option     = "FromImage"
     managed           = true
-    os_type           = "windows"
+    os_type           = "Linux"
     image_reference {
       publisher = "Canonical"
       offer     = "UbuntuServer"
